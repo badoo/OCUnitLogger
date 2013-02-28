@@ -79,8 +79,7 @@ static void __attribute__ ((destructor)) OCUnitToJUnitLoggerStop(void)
     [super dealloc];
 }
 
-#pragma -
-#pragma mark Methods
+#pragma mark - Methods
 - (void)writeResultFile;
 {
     if (self.document)
